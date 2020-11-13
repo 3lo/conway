@@ -2,7 +2,7 @@
 Conway's Game of Life
 
 ## ToDo:
-- [ ] Store the board state
+- [x] Store the board state
 - [ ] Pretty-print the board to the terminal
 - [ ] Calculate the next state of the board
 - [ ] Run Life forever
