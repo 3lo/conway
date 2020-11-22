@@ -29,8 +29,8 @@ def random_state(w, h):
 
 def render(state):
     print("-------")
-    for i in range (len(state)):
-        print(state[i])
+    for i in range(len(state)):
+        print(*state[i])  # using * will unpack the list and split by a space
     print("-------")
 
 
@@ -38,5 +38,5 @@ def next_board_state(state):
     pass
 
 
-a_random_state = random_state(5, 6)
+a_random_state = random_state(5, 6)  # (width, height)
 print(render(a_random_state))
